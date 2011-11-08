@@ -18,7 +18,7 @@ enyo.kind({
             {name:"appTitle", kind:"HtmlContent", content: "Noted"}
         ]}, 
 		{kind: "SlidingPane", flex: 1, components: [
-			{ name: "left", kind: "SlidingView", width: "300px", components: [
+			{ name: "left", kind: "SlidingView", width: "250px", components: [
 			    {kind: "Pane", flex: 1, components:[
                     {name: "notebookList", kind: "NotebookList", onListTap: "notebookSelected", onAllNotesTap: "showAllNotes", flex:1 }
 			    ]}                                                        
