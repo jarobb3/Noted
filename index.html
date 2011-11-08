@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+<title>Noted</title>
+<script src="../../Program Files/HP webOS/SDK/share/refcode/webos-framework/enyo/1.0/framework/enyo.js" type="text/javascript"></script>
+</head>
+<body>
+<script type="text/javascript">
+	var appInstance = enyo.create({kind:"Stubz"});
+	
+	if( window.PalmSystem && enyo.windowParams){
+		appInstance.setLaunchParams(enyo.windowParams);
+	}
+	appInstance.renderInto(document.body);
+</script>
+</body>
+</html>

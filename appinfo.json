@@ -1,0 +1,9 @@
+{
+  "id": "com.gldnfleece.noted",
+  "version": "1.0.0",
+  "vendor": "HP",
+  "type": "web",
+  "main": "index.html",
+  "title": "Noted",
+  "uiRevision": "2"
+}
